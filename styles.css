@@ -1,0 +1,297 @@
+/*garbage code*/
+@media (max-width: 610px) {
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size:30px;
+    }
+    h3{
+        font-size:20px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    li{
+        font-size: 13px;
+    }
+    .head{
+        font-size: 10px;
+    }
+}
+
+
+body{
+    background-color: #2b2a33;
+    font-family:'Comfortaa', monospace;
+    border: 1px ;
+    border-radius: 2%;
+    font-weight: bold;
+    background-image: linear-gradient(top bottom right, #2E323C, #444B59);
+    margin: 0;
+    padding: relative;
+
+}
+
+.hi-mom{
+    text-align: center;
+    padding: 0%;
+    font-family:'Inconsolata', monospace;
+    font-size: 30px;
+
+}
+
+body, html{
+    height: 100%;
+  }
+
+.head{
+    font-family:'Inconsolata', monospace;
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    border-right: .3rem solid cornflowerblue;
+    width: 35%;
+    margin-top: 19%;
+    white-space: nowrap;
+    font-size:  7vh;
+    font-size: 7vw;
+    margin-bottom: -0.4%;
+    animation: 
+        typing 1.1s steps(7, end) forwards,
+        blink 1.2s infinite;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.subhead{
+    font-family:'Inconsolata', monospace;
+    color: white;
+    animation:
+        fadein 4s;
+    opacity: 0.7;
+}
+
+.down-arrow{
+    animation:
+        flash 4s infinite;
+    margin-bottom: -10%;
+}
+
+.abtme{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    box-sizing:border-box;
+}
+
+.whoami{
+    color: white;
+    font-size: 55px;
+    float: left;
+    margin-left: 15%;
+    text-align: left;
+}
+.desc{
+    color:white;
+    float: right;
+    text-align: left;
+    margin-right: 15%;
+    margin-top: 4%;
+    font-size: 30px;
+}
+
+.describetxt{
+    font-size: 20px;
+}
+
+.technical{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 55px;
+    color: white;
+}
+
+.lihead{
+    font-style: italic;
+}
+
+.languages{
+    list-style: none;
+    float:left;
+    margin-left: 15%;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+.tools{
+    list-style: none;
+    float:right;
+    margin-right: 17%;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.projects{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.project_content{
+    margin-top: 37.5%;
+    font-size: 20px;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.projectslist{
+    padding-bottom: 2%;
+    color:white;
+    font-style:oblique;
+}
+
+.lighter{
+    color: grey;
+}
+
+.flash{
+    animation:
+        flash 3s infinite linear;
+}
+
+.contacts{
+    color: white;
+    font-size: 55px;
+    float: left;
+    margin-left: 10.5%;
+    margin-top: 20%;
+    animation:
+        rotate 2.77s infinite linear;
+    margin-bottom: 5%;
+}
+
+.contactslist{
+    margin-top: 70%;
+    color: white;
+    font-size: 35px;
+    float: right;
+    margin-right: 15.5%;
+    
+}
+
+
+.link:link {
+    color: white;
+}
+  
+
+.link:visited {
+    color: whitesmoke;
+}
+  
+
+.link:hover {
+    color: white;
+    animation:
+        flash 1s infinite linear;
+}
+  
+
+.link:active {
+    color: cornflowerblue;
+}
+
+
+.footer{
+    margin-top: 90%;
+}
+
+
+/*animation delays*/
+.listcontent:nth-child(2){
+    transition-delay: 400ms;
+}
+.listcontent:nth-child(3){
+    transition-delay: 500ms;
+}
+.listcontent:nth-child(4){
+    transition-delay: 600ms;
+}
+.listcontent:nth-child(5){
+    transition-delay: 700ms;
+}
+.listcontent:nth-child(6){
+    transition-delay: 800ms;
+}
+
+
+.projectslist:nth-child(2){
+    transition-delay: 400ms;
+}
+.projectslist:nth-child(3){
+    transition-delay: 500ms;
+}
+
+/*animates things*/
+@keyframes fadein {
+    0% { opacity: 0; }
+    25% {opacity: 0;}
+    100% { opacity: 0.7; }
+  }
+@keyframes typing{
+    0% { width: 0; }
+    100% { }
+}
+@keyframes blink{
+    0% {border-color : transparent;}
+    50% {border-color : cornflowerblue;}
+    100% {border-color : transparent;}
+}
+@keyframes flash{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes rotate{
+    0% {transform:rotate(360deg);}
+    100% {transform:rotate(0deg);}
+
+}
+
+
+/*animation properties*/
+.hidden{
+    opacity: 0;
+    transform: translateX(-30%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.describetxt:nth-child(2){
+    transition-delay: 400ms;
+}
+
+.describetxt:nth-child(3){
+    transition-delay: 550ms;
+}
+
+.describetxt:nth-child(4){
+    transition-delay: 700ms;
+}
