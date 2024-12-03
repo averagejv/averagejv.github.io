@@ -36,6 +36,13 @@ body{
 
 }
 
+hr{
+    border-color: #2b2a33;
+    color:#2b2a33;
+    opacity: 0;
+    width:90%;
+}
+
 .hi-mom{
     text-align: center;
     padding: 0%;
@@ -114,7 +121,7 @@ body, html{
 
 .technical{
     text-align: center;
-    margin-top: 40%;
+    margin-top: 10%;
     font-size: 55px;
     color: white;
 }
@@ -149,10 +156,8 @@ body, html{
 }
 
 .project_content{
-    margin-top: 37.5%;
+    margin-top: 10%;
     font-size: 20px;
-    float: left;
-    margin-left: 5%;
     text-align: center;
 }
 
@@ -160,6 +165,7 @@ body, html{
     padding-bottom: 2%;
     color:white;
     font-style:oblique;
+    text-align: center;
 }
 
 .lighter{
@@ -175,25 +181,25 @@ body, html{
     color: white;
     font-size: 55px;
     float: left;
-    margin-left: 10.5%;
-    margin-top: 20%;
+    margin-left: 20.5%;
+    margin-top: 15%;
     animation:
         rotate 2.77s infinite linear;
-    margin-bottom: 5%;
 }
 
+
 .contactslist{
-    margin-top: 70%;
+    margin-top: 10%;
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     float: right;
-    margin-right: 15.5%;
-    
+    margin-right: 20.5%;
 }
 
 
 .link:link {
     color: white;
+    text-decoration: none;
 }
   
 
@@ -205,7 +211,7 @@ body, html{
 .link:hover {
     color: white;
     animation:
-        flash 1s infinite linear;
+        flash 2s infinite linear;
 }
   
 
@@ -215,7 +221,7 @@ body, html{
 
 
 .footer{
-    margin-top: 90%;
+    margin-top: 10%;
 }
 
 
