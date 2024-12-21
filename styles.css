@@ -140,8 +140,12 @@ body, html{
 .technical{
     text-align: center;
     margin-top: 10%;
-    font-size: 55px;
+    font-size: 60px;
     color: white;
+}
+
+.technical header{
+    font-size: 60px;
 }
 
 .lihead{
