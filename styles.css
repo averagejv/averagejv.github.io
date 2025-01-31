@@ -25,11 +25,10 @@
 
 
 body{
-    background-color: #2b2a33;
+    background-color: #11111b;
     font-family:'Montserrat';
     border: 1px ;
     border-radius: 2%;
-    font-weight: bold;
     background-image: linear-gradient(top bottom right, #2E323C, #444B59);
     margin: 0;
     padding: relative;
@@ -144,8 +143,9 @@ body, html{
     color: white;
 }
 
-.technical header{
-    font-size: 60px;
+.technical_header{
+    font-size: 3vh;
+    font-size: 3vw;
 }
 
 .lihead{
@@ -173,7 +173,8 @@ body, html{
 .projects{
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 3vh;
+    font-size: 3vw;
 
 }
 
