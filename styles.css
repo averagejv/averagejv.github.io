@@ -107,11 +107,11 @@ body, html{
 .down-arrow{
     animation:
         flash 4s infinite;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 .wave_split{
-    margin-bottom:-3%;
+    margin-bottom:-1%;
 }
 
 .abtme{
